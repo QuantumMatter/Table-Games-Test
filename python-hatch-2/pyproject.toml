@@ -32,7 +32,7 @@ Issues = "https://github.com/unknown/python-hatch-2/issues"
 Source = "https://github.com/unknown/python-hatch-2"
 
 [tool.hatch.version]
-path = "src/python_hatch_2/__about__.py"
+path = "src/table-games/__about__.py"
 
 [tool.hatch.envs.default]
 dependencies = [
