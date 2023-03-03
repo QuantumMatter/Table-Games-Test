@@ -1,4 +1,4 @@
-# table-games
+# table_games
 
 [![PyPI - Version](https://img.shields.io/pypi/v/table-games.svg)](https://pypi.org/project/table-games)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/table-games.svg)](https://pypi.org/project/table-games)

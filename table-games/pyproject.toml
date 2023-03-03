@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "table_games"
+name = "table-games"
 description = ''
 readme = "README.md"
 requires-python = ">=3.7"
@@ -27,9 +27,9 @@ dependencies = []
 dynamic = ["version"]
 
 [project.urls]
-Documentation = "https://github.com/unknown/python-hatch-2#readme"
-Issues = "https://github.com/unknown/python-hatch-2/issues"
-Source = "https://github.com/unknown/python-hatch-2"
+Documentation = "https://github.com/unknown/table-games#readme"
+Issues = "https://github.com/unknown/table-games/issues"
+Source = "https://github.com/unknown/table-games"
 
 [tool.hatch.version]
 path = "src/table_games/__about__.py"

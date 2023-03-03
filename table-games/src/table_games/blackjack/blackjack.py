@@ -2,7 +2,7 @@ from enum import Enum
 from copy import deepcopy
 from typing import List, Tuple
 
-from cards import CValue, Card, Deck
+from table_games.common import CValue, Card, Deck
 
 MAX_PLAYERS = 6
 

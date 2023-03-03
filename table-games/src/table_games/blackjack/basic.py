@@ -1,4 +1,4 @@
-from blackjack import *
+from .blackjack import *
 
 basic_strategy = {
     'hard': {
