@@ -35,7 +35,6 @@ jobs:
     - name: Install Hatch
       run: pip install --upgrade hatch
 
-    - run: cd python-hatch-2
-
     - name: Run tests
+      working-directory: ./python-hatch-2
       run: hatch run cov
