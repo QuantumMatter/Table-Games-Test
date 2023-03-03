@@ -36,5 +36,5 @@ jobs:
       run: pip install --upgrade hatch
 
     - name: Run tests
-      working-directory: ./table-games
+      working-directory: ./python
       run: hatch run cov
