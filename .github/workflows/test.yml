@@ -2,9 +2,9 @@ name: test
 
 on:
   push:
-    branches: [main, master]
+    branches: [master]
   pull_request:
-    branches: [main, master]
+    branches: [master]
 
 concurrency:
   group: test-${{ github.head_ref }}
@@ -34,6 +34,8 @@ jobs:
 
     - name: Install Hatch
       run: pip install --upgrade hatch
+
+    - run: cd python-hatch-2
 
     - name: Run tests
       run: hatch run cov
